@@ -2,7 +2,7 @@ import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import * as schema from "./schema";
 import { keys } from "./keys";
-#here am practicing 
+
 const { DATABASE_URL } = keys();
 // Create a lazy database instance that only initializes when accessed
 let _db: ReturnType<typeof drizzle> | null = null;
