@@ -5,7 +5,7 @@
   "dialect": "postgresql",
   "tables": {
     "public.accounts": {
-      "name": "accounts",
+      "name": "flase",
       "schema": "",
       "columns": {
         "id": {
